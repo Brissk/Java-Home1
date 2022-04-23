@@ -14,3 +14,4 @@ void Cubic(int x)
 }
 
 Cubic(5);
+Cubic(3);
