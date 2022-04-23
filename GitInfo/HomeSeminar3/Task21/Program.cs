@@ -11,3 +11,4 @@ void Distance(int x1,int x2,int y1,int y2,int z1,int z2)
 }
 
 Distance(3,2,6,1,8,-7);
+Distance(7,1,-5,-1,0,9);
