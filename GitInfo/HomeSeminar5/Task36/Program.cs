@@ -19,16 +19,12 @@ void Print(int[] array)
 
 int NegativeSum(int[] array)
 {
-    int positive = 0;
     int negative = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 1; i < array.Length; i += 2)
     {
-        if (array[i] % 2 == 0) 
-        positive++;
-        else 
-        negative += array[i];        
+        negative += array[i];
     }
-    System.Console.WriteLine("Сумма нечётных чисел: " + negative);
+    System.Console.WriteLine("Сумма нечётных индексов: " + negative);
     return negative;
 }
 int[] array = new int[4];
