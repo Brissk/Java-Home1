@@ -4,7 +4,7 @@ void Random(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(0, 1000);
+        array[i] = new Random().NextDouble()*1000;
     }
 }
 
@@ -38,6 +38,7 @@ double[] array = new double[4];
 Random(array);
 Print(array);
 System.Console.WriteLine(Maximum(array)-Minimum(array));
+
 
 
 
