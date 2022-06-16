@@ -4,6 +4,6 @@
 
 string[] FindThreeOrLess(string[] array)
 {
-   
+   string s = string.Empty;
 }
 
