@@ -4,6 +4,11 @@
 
 string[] FindThreeOrLess(string[] array)
 {
-   string s = string.Empty;
+    string s = string.Empty;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+            s += array[i] + " ";
+    }
 }
 
