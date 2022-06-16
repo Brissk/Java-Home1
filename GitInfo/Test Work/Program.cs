@@ -10,5 +10,7 @@ string[] FindThreeOrLess(string[] array)
         if (array[i].Length <= 3)
             s += array[i] + " ";
     }
+    string[] threeOrLessArray = s.Split();
+    return threeOrLessArray;
 }
 
