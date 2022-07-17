@@ -3,8 +3,9 @@
 def print_numbers(n):
     my_list = []
     for i in range(n):
+        #my_list.append((1+(1/(i+1)))**(i+1))
         my_list.append((1+(1/(i+1)))**(i+1))
     print(my_list)    
 
         
-print_numbers(2)
+print_numbers(6)
