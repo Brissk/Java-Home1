@@ -1,24 +1,21 @@
-# Задача 1: Напишите программу, в которой пользователь будет задавать две строки, 
-# а программа - определять количество вхождений одной строки в другую.
+# Задача 2: Напишите программу, которая определит позицию второго
+# вхождения строки в списке либо сообщит что её нет
 
-def str_quantity(st1:str, st2:str): 
-    t=0
-    for i in range(len(st1)-len(st2)):
-        if st1[i:i+len(st2)] == st2:
-            t+=1
-    print(t)
+my_list = ['123','qwe','asd',123,'zxc','qwe','ertqwe']
+
+def str_find(list1, str1): 
+    x = 0
+    index = 0
+    for i in range(len(list1)):
+        if list1[i] == str1:
+            x+=1
+            if x == 2:
+                print(f'Второе вохожение на позиции {i}')
+                break
+    if x!=2:
+        print('Нет второго вхождения')
 
 
-def find_str(base_string, symbol):
-    position = 0
-    qty = 0
-    while True:
-        position = base_string.find(symbol,position)
-        if position == -1:
-            break
-        else:
-            position += 1
-            qty += 1
-    print(qty)
 
-find_str("d;sfljg;lskdfooooooo", "oo")
+
+str_find(my_list,'123')
