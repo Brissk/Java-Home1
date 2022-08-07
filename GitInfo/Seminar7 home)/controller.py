@@ -17,6 +17,6 @@ def button():
         case 4:
             output_data.print_person()
 
-    a = input('Хотите выполнить ещё какие-либо действия? y/n ')
-    if a =='y':
+    b = input('Хотите выполнить ещё какие-либо действия? y/n ')
+    if b =='y':
         button()
