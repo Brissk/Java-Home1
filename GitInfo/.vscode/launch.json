@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Tusk9",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Home3.Tusk9",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tusk4",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Home3.Tusk4",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tusk11",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Tusk11",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tusk2",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Tusk2",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tusk9",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Tusk9",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Java.Seminar.App",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "name": "Python: текущий файл",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
