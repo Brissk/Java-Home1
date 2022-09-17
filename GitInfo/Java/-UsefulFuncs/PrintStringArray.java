@@ -1,4 +1,4 @@
-package Java.Seminar;
+/* package Java.Seminar;
 import java.io.*
 
   static String print(int[] items) {
@@ -8,7 +8,7 @@ import java.io.*
       sb.append(String.format("(%d)%d ", i, items[i]));
     }
     return sb.toString();
-  }
+  } */
 
 
 

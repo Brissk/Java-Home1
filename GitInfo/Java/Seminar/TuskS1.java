@@ -5,7 +5,7 @@ package Java.Seminar;
  */
 import java.util.*;
 
-public class Tusk0 {
+public class TuskS1 {
     public static void main(String[] args) {
         int [] a = new int [] {1,2,3,4,5};
         int [] b = new int [] {3,4,5,1,2};

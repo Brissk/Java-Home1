@@ -3,11 +3,17 @@ package Java.Seminar;
 /* Найти наибольшую общую последовательность
  */
 
-// import java.util.ArrayList;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Tusk2 {
+public class TuskS2 {
     public static void main(String[] args) {
         func(2, 7, 1    , 2);
+        List<String> people = new ArrayList<String>();
+        people.add("Tom");
+        people.add("Alice");
+        people.add("Kate");
+        people.add("Sam");
     }
 
     public static int transform(int start, int end, int com1, int com2) {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tusk2refactoring",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Tusk2refactoring",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
             "name": "Launch Tusk9",
             "request": "launch",
             "mainClass": "Java.SeminarHome.Home3.Tusk9",
