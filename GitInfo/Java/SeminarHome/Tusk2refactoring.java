@@ -14,9 +14,8 @@ public class Tusk2refactoring {
     }
 
     public static String transform(double a, double b,int c, int d) {
-        //int c отвечает за умножение и также является командой "к1"
-        //int d отвечает за сложение и также является командой "к2"
-        StringBuilder sb = new StringBuilder();
+        
+        StringBuilder sb = new StringBuilder(); // Рефакторинг)))
         Scanner iScanner = new Scanner(System.in);
         System.out.print("Введите a: ");
         a = iScanner.nextDouble();
