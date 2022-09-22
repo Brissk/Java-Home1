@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fdg",
+            "request": "launch",
+            "mainClass": "fdg",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
             "name": "Launch Tusk2refactoring",
             "request": "launch",
             "mainClass": "Java.SeminarHome.Tusk2refactoring",
