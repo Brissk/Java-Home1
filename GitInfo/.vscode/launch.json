@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TuskS5",
+            "request": "launch",
+            "mainClass": "Java.Seminar.TuskS5",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch WaveAlgo",
+            "request": "launch",
+            "mainClass": "Java.Seminar.WaveAlgo",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tusk12",
+            "request": "launch",
+            "mainClass": "Java.SeminarHome.Tusk12",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TuskS4",
+            "request": "launch",
+            "mainClass": "Java.Seminar.TuskS4",
+            "projectName": "GitInfo_498017f7"
+        },
+        {
+            "type": "java",
             "name": "Launch fdg",
             "request": "launch",
             "mainClass": "fdg",
